@@ -30,21 +30,19 @@ export default async function ReportPage({
           <h1 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-900">
             {report.title}
           </h1>
-          <div className="mt-2 flex items-center gap-3">
-            <time className="text-sm text-zinc-400">{report.date}</time>
-            {report.sources.length > 0 && (
-              <div className="flex flex-wrap gap-1.5">
-                {report.sources.map((source) => (
-                  <span
-                    key={source}
-                    className="inline-flex rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600"
-                  >
-                    {source}
-                  </span>
-                ))}
-              </div>
-            )}
-          </div>
+          <time className="mt-2 block text-sm text-zinc-400">{report.date}</time>
+          {report.sources.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {report.sources.map((source) => (
+                <span
+                  key={source}
+                  className="inline-flex rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600"
+                >
+                  {source}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </header>
 
