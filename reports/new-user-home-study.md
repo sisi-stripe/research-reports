@@ -64,7 +64,7 @@ This section covers what emerged from the latest round of research: 4 sessions t
 
 **What we heard:** All participants gravitated to the setup guide immediately. It draws attention, sets expectations, and provides a clear starting point.
 
-> Travis: "Drawn to setup guide portion — attention drawn right away. Metrics that can reference later but focused on the setup guide." — Session #2
+> "I'm already drawn to the setup guide portion of it, it's giving me basically 3 options that stand out, and that's where my attention is drawn right away. I acknowledge the fact that there's some metrics that I can reference later, but I'm focused on the setup guide." — Travis, Session #2
 
 > Brandi "confirmed she would follow the setup guide in a linear fashion from top to bottom and expressed appreciation for the progress bar feature." — Session #3
 
@@ -78,7 +78,7 @@ This section covers what emerged from the latest round of research: 4 sessions t
 
 **What we heard:** 3 of 4 participants raised issues with the sandbox/live distinction. Non-technical users prefer to work directly in live. The sandbox banner feels like clutter.
 
-> Travis: "Preference is that the account would be live. As I am doing things it would affect the account and function accordingly." He also found the blue sandbox banner annoying: "Don't like notifications if you can't get rid of them. Not relevant." — Session #2
+> "My preference and hope would be that it would be live, because I've already set up the account, and now I'm adding important data to it." On the blue sandbox banner: "It's a personal pet peeve, I don't really like those notifications if I can't get rid of them. It's not really relevant to me." — Travis, Session #2
 
 > Melissa "expressed uncertainty about the process for moving from sandbox to live, noting that current instructions felt 'salesy' and unclear for new users." She questioned "whether work done in sandbox would be duplicated when moving to live" and "expressed a preference for working directly in a live environment from the start." — Session #1
 
@@ -94,7 +94,7 @@ This section covers what emerged from the latest round of research: 4 sessions t
 
 **What we heard:** All 4 participants discussed the order of steps. They want linear progression but with *their* most relevant action first, not a generic sequence.
 
-> Travis's preferred order: "Accept payments → add clients → connect bank → plug in services and products." He'd expect invoicing to have "followup questions — like frequency of invoices" and to "add most important clients into the system." — Session #2
+> "My inclination would be to set up how I accept payments, add a few of my important clients, and then connect what I've just created to my bank. That would probably be the next thing that I do, because then I'd have that conduit from start to finish established. And then I would go in and plug in my services and products." — Travis, Session #2
 
 > Brandi "suggested reordering the content, moving 'create subscriptions and send invoices' higher up and adjusting the framing to be more educational about integrations rather than discovery of new products." — Session #3
 
@@ -110,9 +110,9 @@ This section covers what emerged from the latest round of research: 4 sessions t
 
 **What we heard:** Participants in setup mode deliberately bypass discovery/exploration content. They register it exists but save it for later.
 
-> Travis on Discover Products: "When first landed, disregard. Now familiar with setup, now it is easy to see, will probably explore that. Maybe down the line." He explicitly said it "wouldn't interest me at this moment while engaged in my current flow — but might remember things for later." — Session #2
+> "I mostly disregarded it because I didn't want to be pulled away from the task at hand. But now that I'm familiar with the dashboard, and I've done my setup... once I become familiar and comfortable with this interface, then I will start feeling comfortable exploring. Not on my first use, maybe not on my second use, but at some point." — Travis on Discover Products, Session #2
 
-> Travis on "Test your integration": "Not sure what that does. Not in explore mode. Hover didn't really help to educate the user. At first glance not really sure what it is capable of. Am not ready to jump on at this point." — Session #2
+> "The hover didn't really enlighten me at all. I don't know what I'm looking at here... at this particular point, I'm not ready to jump onto that either, because I'm trying to establish all these connections." — Travis on Test Integration, Session #2
 
 > Brandi's feedback focused entirely on reordering setup steps, with no engagement with discovery content. — Session #3
 
@@ -124,7 +124,7 @@ This section covers what emerged from the latest round of research: 4 sessions t
 
 **What we heard:** Participants identified empty space on the page and suggested it could show useful-at-a-glance information relevant to their business.
 
-> Travis: "Real estate not used. Right or left column having a list of clients / possibly the different products that have been placed in the system. Summary would be nice / information at a glance." — Session #2
+> "There's a lot of real estate on this page that's not being used... if I want just to be able to glance and see a client, and how much money they've paid us this year, how many invoices they have outstanding, you could do that. The more information you can have at a glance, and then be invited to open it and dig deeper if you need to. I'm a big believer in that." — Travis, Session #2
 
 > Amy "noted the need for additional details on accepting payments, creating products, and tax collection, including international taxes like VAT" once the system goes live. — Session #5
 
@@ -190,23 +190,3 @@ Based on 4 qualitative interviews — directional signals, not statistically rep
 - **Floatie vs. Assistant relationship:** "Is the Floatie a container for GSMs? Does the Assistant replace the Floatie?" Not yet resolved.
 - **How do we personalize step order without signals?** If users skip FOX, what alternative signals can drive ordering (signup source, browse history, industry)?
 
----
-
-## Design Direction
-
-**What the new study reinforces:**
-- Setup guide as focal point works — keep it prominent, keep it sequential
-- One problem at a time — users in setup mode have tunnel vision; respect it
-- The hero module direction is structurally sound
-
-**What the new study challenges:**
-- Fixed step ordering doesn't serve diverse user needs — consider dynamic ordering
-- Sandbox/live as a visible mode is a hard boundary that violates the "no hard boundaries" principle for non-technical users
-- Discovery content during setup is wasted — consider hiding or deferring entirely
-
-**Design principles to carry forward (from the Design Director):**
-- **Focus over density:** Don't show all cards simultaneously. Travis focused only on setup; everything else was "disregard."
-- **Contextual integration:** The sandbox banner, discovery section, and test-integration prompt all feel like separate systems. Make boundaries invisible.
-- **Journey thinking:** The progression from setup → familiar → power-user needs distinct states, not a jarring reset when switching modes.
-- **Visual hierarchy:** The setup guide should dominate. Secondary content (discover products, charts) should recede visually until relevant.
-- **Intentionality:** Every element on the page must earn its place. Travis's "real estate not used" is a design opportunity, not just empty space — fill it with contextual, business-specific information.
