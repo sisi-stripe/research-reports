@@ -1,5 +1,5 @@
 ---
-title: "New User Onboarding: Discovery Findings"
+title: "[EXAMPLE] New User Onboarding: Discovery Findings"
 date: "2026-05-06"
 sources: ["User Interviews (Zoom)", "Dovetail Highlights", "Product Strategy Doc"]
 summary: "Key findings from 8 user interviews on first-time onboarding experience, revealing friction in API key setup and unclear next steps after account creation."
